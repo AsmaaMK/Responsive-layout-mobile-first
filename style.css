@@ -14,6 +14,7 @@
 
 html {
     font-size: 24px;
+    background-color: var(--dark-gray);
 }
 
 body {
@@ -28,6 +29,10 @@ body {
 
 ul {
     padding: 0;
+}
+
+a, button {
+    cursor: pointer;
 }
 
 /* navbar style */
@@ -158,7 +163,11 @@ section {
     font-size: 1.2rem;
 }
 
-/* section 3 style */
+/* section 2 style */
+
+.s2 {
+    background-color: #fff;
+}
 
 h2 {
     line-height: 1em;
@@ -188,5 +197,36 @@ p {
 .card h2 {
     font-family: var(--titles-font);
     color: #fff;
+}
+
+/* footer style */
+
+footer {
+    background-color: var(--dark-gray);
+    padding: 2em 0 3em;
+    color: #fff;
+}
+
+footer h3, footer h2 {
+    font-family: var(--titles-font);
+    margin-top: 2em;
+}
+
+footer h3 {
+    color: var(--brown);
+}
+
+footer a {
+    font-family: var(--body-font);
+    
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li , footer p{
+    margin: .8em 0;
 }
 
