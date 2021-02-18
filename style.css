@@ -1,7 +1,7 @@
 :root {
     --very-dark-gray: #2E323F;
     --dark-gray: #3B4050;
-    --gray: #6F737F;
+    --gray: #e1e3eb;
     --brown: #A59678;
     --body-font: 'Montserrat', sans-serif;
     --titles-font: 'Oswald', sans-serif;
@@ -92,6 +92,12 @@ button {
     border: none;
     font-family: var(--titles-font);
     text-transform: uppercase;
+    outline: none;
+}
+
+button:hover, 
+button:focus {
+    opacity: 80%;
 }
 
 /* header body style */
@@ -126,4 +132,22 @@ header h1 {
 
 .header-body p {
     color: #fff;
+}
+
+/* style section 1 */
+
+.s1 {
+    background-color: var(--gray);
+    padding: 3em 0;
+    text-align: center;
+}
+
+.s1 p {
+    margin: 1em 0 2em;
+}
+
+.s1 h2 {
+    color: var(--brown);
+    font-family: var(--titles-font);
+    font-size: 1.2rem;
 }
