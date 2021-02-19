@@ -55,12 +55,12 @@ a, button {
     position: relative;
 }
 
-.visible {
-    display: block;
-}
-
 .invisible {
     display: none;
+}
+
+.visible {
+    display: block;
 }
 
 .nav {
